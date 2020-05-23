@@ -1,0 +1,24 @@
+{
+  "name": "python design patterns",
+  "dockerComposeFile": [
+    "../docker-compose.yml",
+    "docker-compose.extend.yml"
+  ],
+  "service": "python-design-patterns",
+  "workspaceFolder": "/python-design-patterns",
+  "shutdownAction": "stopCompose",
+  "settings": {
+    "editor.rulers": [
+      88
+    ],
+    "editor.formatOnSave": true,
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+  },
+  "extensions": [
+    "ms-python.python",
+    "esbenp.prettier-vscode",
+    "vscodevim.vim"
+  ]
+}
