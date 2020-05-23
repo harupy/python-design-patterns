@@ -1,0 +1,10 @@
+version: "3"
+services:
+  python-design-patterns:
+    build:
+      context: .
+    volumes:
+      - .:/python-design-patterns
+      - ~/.ssh:/root/.ssh
+    image: pdp-image
+    container_name: pdp-container
